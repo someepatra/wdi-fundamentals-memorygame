@@ -24,6 +24,8 @@ a{
 	font-size: 18px;
 	color: #FFFFFF;
 	margin: 20px;
+	border-bottom: 2px solid transparent;
+
 }
 
 h2 {
@@ -54,11 +56,11 @@ main {
 img {
 	margin: 40px 8px;
 }
-.Copyright ,.message
+.Copyright
 {
 	font-family: RALEWAY;
 text-transform: uppercase;
-padding: 20px;
+//padding: 20px;
 background-color: #0D2C40;
 color: #FFFFFF;
 font-size: 14px;
@@ -68,16 +70,36 @@ float: left;
 
 }
 
-.clearfix: after {
-visibility: hidden;
-display: block;
-content: " ";
-clear: both;
-height: 0;
-font-size: 0;
+.message
+{
+	font-family: RALEWAY;
+text-transform: uppercase;
+//padding: 20px;
+background-color: #0D2C40;
+color: #FFFFFF;
+font-size: 14px;
+letter-spacing: .08em
+font-weight:500;
+float:right;
+
 }
+
+.clearfix:after {
+display: block;
+padding: 20px;
+background-color: #0D2C40;
+content:'';
+padding: 30px;
+/*clear: both;
+height: 0;
+font-size: 0;*/
+}
+
 .name {
 	color: #F15B31;
 	font-weight: 700;
 
+}
+a:hover {
+	color: #FFFFFF;
 }
