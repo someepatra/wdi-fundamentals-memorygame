@@ -1,7 +1,7 @@
 body
 {
 	text-align:center;
-	margin: 0;
+	
 }
 
 h1
@@ -17,13 +17,14 @@ h1
 	margin: 0;
 }
 a{
+	text-decoration: none;
 	font-family: RALEWAY;
 	color:#F15B31;
 	letter-spacing: 1px;
 	font-weight: 600;
 	font-size: 18px;
 	color: #FFFFFF;
-	margin: 20px;
+	margin: 0 20px;
 	border-bottom: 2px solid transparent;
 
 }
@@ -85,14 +86,15 @@ float:right;
 }
 
 .clearfix:after {
+visibility: hidden;
 display: block;
 padding: 20px;
 background-color: #0D2C40;
 content:'';
 padding: 30px;
-/*clear: both;
+clear: both;
 height: 0;
-font-size: 0;*/
+font-size: 0;
 }
 
 .name {
@@ -100,6 +102,16 @@ font-size: 0;*/
 	font-weight: 700;
 
 }
-a:hover {
-	color: #FFFFFF;
+nav a:hover {
+	border-color: #FFFFFF;
+}
+
+footer {
+  text-transform: uppercase;
+  padding: 0 20px;
+  background-color: #0d2c40;
+  color: white;
+  font-size: 20px;
+  //letter-spacing: 0.8em;
+  font-weight: 500;
 }
